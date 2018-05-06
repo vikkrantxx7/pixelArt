@@ -18,7 +18,7 @@ body {
     box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.4);
 }
 .table{
-  margin:20px;
+    margin:20px;
 }
 h1 {
     font-family: Monoton, serif;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-family: Inknut Antiqua, serif;
+    font-family: Inknut Antiqua, serif;
     text-shadow: -2px 0px 1px red,2px 0 1px cyan;
     font-size: 25px;
 }
@@ -38,7 +38,7 @@ h2:first-of-type {
 }
 
 form {
-  font-family: Inknut Antiqua, serif;
+    font-family: Inknut Antiqua, serif;
     font-size: 25px;
     text-shadow: -2px 0px 1px red,2px 0 1px cyan;
 }
@@ -67,68 +67,68 @@ td {
 }
 
 td:hover{
-  transform: scale(1.2) rotate(15deg);
+    transform: scale(1.2) rotate(15deg);
 }
 
 input[type=number] {
-  font-size: 20px;
+    font-size: 20px;
     width: 3em;
     box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.4),1px 2px 2px 1px rgba(0,0,0,0.4);
 }
 
 label{
-  margin:10px;
+    margin:10px;
 }
 #label1{
-  margin:20px;
-  position:absolute;
+    margin:20px;
+    position:absolute;
 }
 #colorPicker{
-  cursor:pointer;
-  transition: 0.4s;
+    cursor:pointer;
+    transition: 0.4s;
 }
 #colorPicker:hover{
-  box-shadow:0px 0px 5px 3px rgba(0,0,0,0.6);
+    box-shadow:0px 0px 5px 3px rgba(0,0,0,0.6);
 }
 
 /* submit button gradient animate */
 #submit {
-  cursor:pointer;
-  position:absolute;
-  color: white;
-  font-size: 20px;
-  outline:none;
-  padding:8px;
-  opacity:1;
-  border: none;
-  transition: 0.4s;
-  border-radius: 0.45rem;
-  background: linear-gradient(#e66465, #9198e5, rgba(145,152,229,0));
-  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.4),0px -5px 5px 1px rgba(0,0,0,0.4);
+    cursor:pointer;
+    position:absolute;
+    color: white;
+    font-size: 20px;
+    outline:none;
+    padding:8px;
+    opacity:1;
+    border: none;
+    transition: 0.4s;
+    border-radius: 0.45rem;
+    background: linear-gradient(#e66465, #9198e5, rgba(145,152,229,0));
+    box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.4),0px -5px 5px 1px rgba(0,0,0,0.4);
 }
 #submit1{
-  cursor:pointer;
-  position:absolute;
-  color: white;
-  font-size: 20px;
-  outline:none;
-  opacity:0;
-  padding:8px;
-  border: none;
-  transition: 0.4s;
-  border-radius: 0.45rem;
-  background: linear-gradient(rgb(145,152,229,0), #9198e5,#e66465);
-  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.4),0px 5px 5px 1px rgba(0,0,0,0.4);
+    cursor:pointer;
+    position:absolute;
+    color: white;
+    font-size: 20px;
+    outline:none;
+    opacity:0;
+    padding:8px;
+    border: none;
+    transition: 0.4s;
+    border-radius: 0.45rem;
+    background: linear-gradient(rgb(145,152,229,0), #9198e5,#e66465);
+    box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.4),0px 5px 5px 1px rgba(0,0,0,0.4);
 }
 #submit:hover{
-  opacity:0;
+    opacity:0;
 }
 #submit1:hover{
-  opacity:1;
+    opacity:1;
 }
 #submit1:active{
-  transform:scale(0.6);
+    transform:scale(0.6);
 }
 #dummy{
-  display: none;
+    display: none;
 }
